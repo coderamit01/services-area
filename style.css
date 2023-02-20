@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+    background-color: #000 !important;
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.service-area {
+    padding: 50px 0;
+}
+.service-area h2{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.service-area .para {
+    color: #ff105f;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.service-box {
+    padding: 15px;
+    /* border: 1px solid #ff105f; */
+    position: relative;
+    border-radius: 8px;
+    background-color: #202020;
+    box-shadow: 5px 5px 14px 0 #202020;
+}
+
+.service-box h3 {
+    font-size: 24px;
+}
+.fa-solid {
+    font-size: 30px !important;
+    margin-bottom: 15px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.service-box p {
+    text-align: left;
+    color: #f1f1f1;
+}
+.service-box a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    bottom: -20px;
+    display: block;
+    text-align: center;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+}
+.service-area span {
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.service-box a i {
+    color: #fff !important;
+    padding-top: 5px;
+    font-size: 18px;
+}
